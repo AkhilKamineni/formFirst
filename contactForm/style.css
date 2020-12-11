@@ -1,0 +1,62 @@
+form{
+    background-color: rgb(76, 205, 228);
+    width: 500px;
+    border-radius: 25px;
+    height: 400px;
+    padding: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 50px auto 50px;
+
+}
+
+form h1{
+    color: rgb(238, 59, 46);
+    text-align: center;
+    font-size: 22px;
+}
+
+label{
+    color: rgb(209, 43, 43);
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    display: inline-block;
+}
+
+input,textarea{
+    box-sizing: border-box;
+    width: 450px;
+    height: 30px;
+    padding-left: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+textarea{
+    height: 50px;
+}
+
+#buttons-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button{
+    flex-grow: 1;
+    width: 125px;
+    margin: 25px; 
+    border:none;
+    border-radius: 15px;
+    height: 35px;
+    font-size: 20px;
+}
+
+button#send{
+    background-color: rgb(26, 189, 61);
+    color: white;
+}
+
+button#reset{
+    background-color: rgb(214, 37, 37);
+    color: white;
+}
